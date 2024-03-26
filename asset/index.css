@@ -1,0 +1,21 @@
+.warna-warna{
+  color: red;
+  position: relative;
+  animation-name: warna;
+  animation-duration: 4s;
+}
+
+@keyframes warna {
+  0%   {color:red; left:0px; top:0px;}
+  20%  {color:yellow; left:200px; top:0px;}
+  40%  {color:blue; left:200px; top:200px;}
+  60%  {color:green; left:-200px; top:200px;}
+  80% {color:red; left:-200px; top:0px;}
+  100% {color:white; left:0px; top:0px;}
+}
+
+@media only screen and (min-width: 320px) {
+    h3{
+        font-size: 2.5rem !important;
+    }
+}
