@@ -4,7 +4,9 @@
   animation-name: warna;
   animation-duration: 4s;
 }
-
+.bayangan-box{
+    box-shadow: 0 10px 15px -3px rgba(255, 255, 255), 0 4px 6px -4px rgba(255, 255, 255);
+}
 @keyframes warna {
   0%   {color:red; left:0px; top:0px;}
   20%  {color:yellow; left:200px; top:0px;}
@@ -21,5 +23,15 @@
 
     img#imgProfil{
         width: 280px ;
+    }
+    #containerProject{
+        width: 100% !important;
+    }
+    #contentProject{
+        flex-direction: column !important;
+        align-items: start;
+    }
+    #contentProject img{
+        width: 350px !important;
     }
 }
